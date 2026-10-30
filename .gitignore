@@ -1,0 +1,84 @@
+# ==========================================
+# PHP & Composer
+# ==========================================
+/vendor/
+composer.phar
+composer.lock
+.env
+.env.backup
+.env.local
+.env.*.local
+*.env
+
+# ==========================================
+# Caches, Logs, & Runtime Files
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+.cache/
+tmp/
+temp/
+
+# ==========================================
+# SQLite / Database Runtime Artifacts
+# ==========================================
+*.sqlite-journal
+*.sqlite3-journal
+*.db-journal
+
+# ==========================================
+# Testing & Code Coverage
+# ==========================================
+.phpunit.result.cache
+.phpunit.cache/
+/coverage/
+*.coverage
+
+# ==========================================
+# Python Cache (Workspace Scripts)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ==========================================
+# IDE & Code Editors
+# ==========================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# ==========================================
+# Operating System Artifacts
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.fuse_hidden*
+

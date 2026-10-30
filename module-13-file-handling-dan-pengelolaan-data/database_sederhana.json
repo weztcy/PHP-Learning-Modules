@@ -1,0 +1,14 @@
+{
+    "pengguna": [
+        {
+            "id": 1,
+            "nama": "Kiki",
+            "poin": 100
+        },
+        {
+            "id": 2,
+            "nama": "Lia",
+            "poin": 150
+        }
+    ]
+}
