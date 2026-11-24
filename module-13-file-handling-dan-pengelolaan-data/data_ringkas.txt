@@ -1,0 +1,1 @@
+Teks satu baris dengan file_get_contents.
